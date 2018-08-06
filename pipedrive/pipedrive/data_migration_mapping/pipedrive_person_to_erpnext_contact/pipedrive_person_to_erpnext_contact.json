@@ -1,0 +1,50 @@
+{
+ "creation": "2018-08-03 18:05:24.248599",
+ "docstatus": 0,
+ "doctype": "Data Migration Mapping",
+ "fields": [
+  {
+   "is_child_table": 0,
+   "local_fieldname": "pipedrive_sync_id",
+   "remote_fieldname": "id"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "first_name",
+   "remote_fieldname": "first_name"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "last_name",
+   "remote_fieldname": "last_name"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "email_id",
+   "remote_fieldname": "email"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "phone",
+   "remote_fieldname": "phone"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "mobile",
+   "remote_fieldname": "mobile_no"
+  }
+ ],
+ "idx": 0,
+ "local_doctype": "Contact",
+ "local_primary_key": "pipedrive_sync_id",
+ "mapping_name": "Pipedrive Person to ERPNext Contact",
+ "mapping_type": "Pull",
+ "migration_id_field": "pipedrive_sync_id",
+ "modified": "2018-08-06 10:52:40.177591",
+ "modified_by": "Administrator",
+ "name": "Pipedrive Person to ERPNext Contact",
+ "owner": "Administrator",
+ "page_length": 20,
+ "remote_objectname": "Person",
+ "remote_primary_key": "id"
+}

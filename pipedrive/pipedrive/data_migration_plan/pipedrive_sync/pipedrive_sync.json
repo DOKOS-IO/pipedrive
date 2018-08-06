@@ -1,0 +1,22 @@
+{
+ "creation": "2018-08-03 18:05:59.673226",
+ "docstatus": 0,
+ "doctype": "Data Migration Plan",
+ "idx": 0,
+ "mappings": [
+  {
+   "enabled": 1,
+   "mapping": "Pipedrive Organization to ERPNext Lead"
+  },
+  {
+   "enabled": 1,
+   "mapping": "Pipedrive Person to ERPNext Contact"
+  }
+ ],
+ "modified": "2018-08-06 10:52:40.131567",
+ "modified_by": "Administrator",
+ "module": "Pipedrive",
+ "name": "Pipedrive Sync",
+ "owner": "Administrator",
+ "plan_name": "Pipedrive Sync"
+}

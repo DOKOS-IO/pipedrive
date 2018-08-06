@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pipedrive *.css
+recursive-include pipedrive *.csv
+recursive-include pipedrive *.html
+recursive-include pipedrive *.ico
+recursive-include pipedrive *.js
+recursive-include pipedrive *.json
+recursive-include pipedrive *.md
+recursive-include pipedrive *.png
+recursive-include pipedrive *.py
+recursive-include pipedrive *.svg
+recursive-include pipedrive *.txt
+recursive-exclude pipedrive *.pyc

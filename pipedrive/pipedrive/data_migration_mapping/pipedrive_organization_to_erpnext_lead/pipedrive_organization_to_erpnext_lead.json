@@ -1,0 +1,35 @@
+{
+ "creation": "2018-08-06 10:43:19.505318",
+ "docstatus": 0,
+ "doctype": "Data Migration Mapping",
+ "fields": [
+  {
+   "is_child_table": 0,
+   "local_fieldname": "pipedrive_sync_id",
+   "remote_fieldname": "company_id"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "lead_name",
+   "remote_fieldname": "name"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "company_name",
+   "remote_fieldname": "name"
+  }
+ ],
+ "idx": 0,
+ "local_doctype": "Lead",
+ "local_primary_key": "pipedrive_sync_id",
+ "mapping_name": "Pipedrive Organization to ERPNext Lead",
+ "mapping_type": "Pull",
+ "migration_id_field": "pipedrive_sync_id",
+ "modified": "2018-08-06 10:52:40.160901",
+ "modified_by": "Administrator",
+ "name": "Pipedrive Organization to ERPNext Lead",
+ "owner": "Administrator",
+ "page_length": 20,
+ "remote_objectname": "Organization",
+ "remote_primary_key": "id"
+}
