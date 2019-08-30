@@ -4,7 +4,7 @@
 
 #### Installation
 
-This application requires [Frappe](https://github.com/frappe/frappe) and [ERPNext](https://github.com/frappe/erpnext) v10.0.0 or higher.
+This application requires [Frappe](https://github.com/frappe/frappe) and [ERPNext](https://github.com/frappe/erpnext) v10 (not tested on higher versions).
 
 1. `bench get-app pipedrive https://github.com/DOKOS-IO/pipedrive/`
 2. `bench install-app pipedrive`
